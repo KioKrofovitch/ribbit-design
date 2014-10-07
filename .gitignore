@@ -1,0 +1,44 @@
+
+.DS_Store
+*.apk
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+
+# Windows thumbnail db
+.DS_Store
+
+# Eclipse project files
+
+# Android Studio
+.idea
+#.idea/workspace.xml - uncomment this and comment/delete .idea if it better suit your needs
+.gradle
+/*/local.properties
+/*/out
+/*/build
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+*screenshot*
+signing.gradle
+
+/local.properties
