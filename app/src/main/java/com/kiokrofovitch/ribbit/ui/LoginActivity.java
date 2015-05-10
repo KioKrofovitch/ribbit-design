@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.kiokrofovitch.ribbit.R;
+import com.kiokrofovitch.ribbit.RibbitApplication;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -83,6 +84,8 @@ public class LoginActivity extends Activity {
                             setProgressBarIndeterminateVisibility(false);
                             if (e == null) {
                                 // success!
+                                RibbitApplication.updateParseInstallation(user);
+
                                 Intent intent = new Intent(LoginActivity.this,
                                         MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

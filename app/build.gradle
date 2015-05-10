@@ -19,8 +19,9 @@ android {
 }
 
 dependencies {
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
     compile 'com.android.support:support-v4:21.0.3'
-    compile files('libs/Parse-1.5.1.jar')
+    compile 'com.parse.bolts:bolts-android:1.+'
     compile files('libs/commons-io-2.4.jar')
     compile files('libs/picasso-2.3.4.jar')
 }
