@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.utils;
 
 public final class ParseConstants {
 	// Class name

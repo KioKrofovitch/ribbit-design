@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.adapters;
 
 import java.util.List;
 
@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.kiokrofovitch.ribbit.utils.ParseConstants;
+import com.kiokrofovitch.ribbit.R;
 import com.parse.ParseObject;
 
 public class MessageAdapter extends ArrayAdapter<ParseObject> {

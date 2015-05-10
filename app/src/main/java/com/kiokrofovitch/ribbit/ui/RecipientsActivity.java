@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.ui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.kiokrofovitch.ribbit.utils.FileHelper;
+import com.kiokrofovitch.ribbit.utils.ParseConstants;
+import com.kiokrofovitch.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

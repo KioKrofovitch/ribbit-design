@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.ui;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -17,6 +17,9 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.kiokrofovitch.ribbit.utils.ParseConstants;
+import com.kiokrofovitch.ribbit.R;
+import com.kiokrofovitch.ribbit.adapters.SectionsPagerAdapter;
 import com.parse.Parse;
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;

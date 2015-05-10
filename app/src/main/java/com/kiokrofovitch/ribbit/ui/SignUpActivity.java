@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -11,6 +11,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.kiokrofovitch.ribbit.R;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;

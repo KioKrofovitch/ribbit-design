@@ -1,4 +1,4 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

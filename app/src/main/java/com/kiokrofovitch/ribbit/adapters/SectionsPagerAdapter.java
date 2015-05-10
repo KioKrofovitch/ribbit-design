@@ -1,9 +1,13 @@
-package com.kiokrofovitch.ribbit;
+package com.kiokrofovitch.ribbit.adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.kiokrofovitch.ribbit.R;
+import com.kiokrofovitch.ribbit.ui.FriendsFragment;
+import com.kiokrofovitch.ribbit.ui.InboxFragment;
 
 import java.util.Locale;
 
