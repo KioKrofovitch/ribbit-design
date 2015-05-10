@@ -2,16 +2,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity$DummySectionFragment" >
+    tools:context=".MainActivity$DummySectionFragment">
 
-    <ListView
-        android:id="@android:id/list"
+    <GridView
+        android:id="@+id/friends_grid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" >
-    </ListView>
-    
+        android:layout_alignParentTop="true"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:layout_centerHorizontal="true"
+        android:horizontalSpacing="@dimen/user_grid_spacing"
+        android:verticalSpacing="@dimen/user_grid_spacing"
+        android:numColumns="auto_fit"></GridView>
+
     <TextView
         android:id="@android:id/empty"
         android:layout_width="match_parent"
