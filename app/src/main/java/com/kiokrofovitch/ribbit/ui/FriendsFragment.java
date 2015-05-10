@@ -34,7 +34,7 @@ public class FriendsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_friends,
+        View rootView = inflater.inflate(R.layout.user_grid,
                 container, false);
 
         mGridView = (GridView) rootView.findViewById(R.id.friends_grid);
